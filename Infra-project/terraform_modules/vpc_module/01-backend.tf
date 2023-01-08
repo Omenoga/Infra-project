@@ -8,7 +8,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "my-terraformstate-landmark-buc"
+    bucket = "my-tfinfra-buc"
     key = "terraform/terraform.tfstate"
     #dynamodb_table = "terraform-lock"
 
