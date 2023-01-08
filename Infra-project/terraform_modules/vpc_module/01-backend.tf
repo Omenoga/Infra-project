@@ -18,7 +18,7 @@ terraform {
 }
 
 /*resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-terraformstate-landmark-buc"
+  bucket = "my-terraformstateinfra-buc"
   acl    = "private"
 
   versioning {

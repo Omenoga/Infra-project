@@ -1,0 +1,8 @@
+#No keys in github
+private-key/
+
+#No lock file
+.terraform.lock.hcl
+
+#No terraform hidden directories
+.terraform/

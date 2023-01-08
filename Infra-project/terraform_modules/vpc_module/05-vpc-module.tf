@@ -12,6 +12,7 @@ module "vpc" {
   private_subnets = var.vpc_private_subnets
   instance_tenancy = "default"
 
+  
   # Database Subnets
   database_subnets = var.vpc_database_subnets
   create_database_subnet_group = var.vpc_create_database_subnet_group
